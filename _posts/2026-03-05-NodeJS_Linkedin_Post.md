@@ -8,24 +8,35 @@ tags:
   - update
 ---
 
-Eureka! Why aren't we using Node.js to modernize this? 💡
+The Modernization Story: From Green Screen to Web UI 🚀
 
-I recently faced a challenge that many IBM i shops know too well. Our Purchasing was stuck in a loop:
-1️⃣ Logging into the traditional "Green Screen."
-2️⃣ Navigating multiple nested menus just to gather product data.
-3️⃣ Manually transcribing that info into a modern web portal.
+"Can you give me a website so I can stop hopping through AS400 menus?"
 
-The data was already sitting on our server—it just needed a modern lens to see it through.
+That was the request from our Credit Controller. Working from home, they were logging into the traditional 5250 interface, navigating multiple screens just to gather data, and then manually transcribing it into a customer’s portal.
 
-As developers, we don't always need to "reinvent" the server; we just need to change how we interact with it. By leveraging Node.js, JavaScript, and CSS, I built a solution that bypasses the 5250 interface entirely.
+My first thought? This is a textbook case for Modernization. 💡
 
-We took the core power of the IBM i and delivered it through a clean, responsive web UI. No more menu-hopping—just the data they need, right where they need it. 🚀
+As developers, we know the power is already there—the server is running 24/7 and the data is secure. The challenge isn't the data; it's the delivery.
 
-📖 See how I handled the NodeJS & AS400 integration here:
-({% post_url 2026-02-26-IBMi-Nodejs-integration %})
+The "Eureka" moment: Why not use Node.js?
 
-#IBMi #Modernization #AS400 #NodeJS #Javascript #WebDevelopment #DigitalTransformation
+By bringing Node.js into our IBM i environment, we can bridge the gap between "legacy" stability and modern flexibility. Using a stack of Node.js, JavaScript, HTML, and CSS, I transformed those nested green-screen menus into a clean, intuitive web interface (check out the result in the image!).
 
+Now, the credit team has exactly what they need, exactly where they need it—no "menu-hopping" required.
+
+What we used:
+✅ Node.js on IBM i
+✅ Express & EJS for the UI
+✅ Git for version control
+✅ The same reliable DB2 data
+
+Modernizing the IBM i doesn’t have to mean replacing the system; it means unlocking its potential for the modern web.
+
+Check out the full breakdown of the solution here:
+👇
+[[IBMi-Nodejs-integration](https://amit12-work.github.io/blog/IBMi-Nodejs-integration/)]
+
+#IBMi #AS400 #NodeJS #Modernization #WebDevelopment #JavaScript #DigitalTransformation #GreenScreenToWeb
 
 
 <!-- `solution: http://url-you-want-linked` -->
