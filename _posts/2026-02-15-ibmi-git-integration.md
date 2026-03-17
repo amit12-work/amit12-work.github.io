@@ -1,6 +1,6 @@
 ---
 title: "IBMi-git-integration"
-date: 2016-02-15T15:34:30-04:00
+date: 2026-02-15T15:34:30-04:00
 categories:
   - blog
 tags:
@@ -55,10 +55,6 @@ Now that Git is working on IBM i, the real journey begins:
 • Driving team adoption
 
 ⸻
-
-Modernisation doesn’t always start with AI.
-
-Sometimes it starts with better version control — and the willingness to experiment.
 
 Success came after a few failures — and that’s the best part of the journey.
 
