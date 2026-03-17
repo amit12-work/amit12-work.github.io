@@ -16,9 +16,10 @@ What we can do as developer? Well, I have Server running 24*7. The data is alrea
 
 Yep, that's it. Lets do it using Node.js, javascript, HTML, CSS and git (again).
 
-Checkout my [solution] to our credit controller.
+Checkout my [solution]({% post_url 2026-02-26-IBMi-Nodejs-integration %}) to our credit controller.
 
-`solution: http://url-you-want-linked`
+
+<!-- `solution: http://url-you-want-linked` -->
 
 <!-- > Only one thing is impossible for God: To find any sense in any copyright law on the planet.
   
