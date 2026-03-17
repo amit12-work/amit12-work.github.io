@@ -60,19 +60,16 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Amit Mhaskar"
   avatar : "/assets/images/amit.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "IBM i (AS400) analyst, RPG, CLP, Node.js, Python, AI chatbox"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://amit12-work.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/amit12-work"
 
 footer:
   links:
@@ -81,7 +78,7 @@ footer:
       url: "https://amit12-work.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/amit12-work"
 
 defaults:
   # _posts
