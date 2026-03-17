@@ -1,5 +1,5 @@
 ---
-title: "2026-02-15-ibmi-git-integration"
+title: "IBMi-git-integration"
 date: 2016-02-15T15:34:30-04:00
 categories:
   - blog
