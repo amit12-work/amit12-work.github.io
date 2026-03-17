@@ -8,17 +8,35 @@ tags:
   - update
 ---
 
-Once my credit controller said, I work from home and everyday I have to login to AS400, and need to check different menu options just to get collaborative information. Once this information is collected and I need to put it on our customer's account on their website. Can you create or give me anything that shows me all required information on the website instead of AS400? It will help me to copy paste easily.
+The Modernization Story: From Green Screen to Web UI 🚀
 
-What comes in your mind first? Ah! There is a need of modernisation, you are right!
+"Can you give me a website so I can stop hopping through AS400 menus?"
 
-What we can do as developer? Well, I have Server running 24*7. The data is already there on the server, my task is just to get from there and show it on the screen. Sounds easy! But it have different ways of handling. Eureka! Eureka! Why dont' we try Node.js??
+That was the request from our Credit Controller. Working from home, they were logging into the traditional 5250 interface, navigating multiple screens just to gather data, and then manually transcribing it into a customer’s portal.
 
-Yep, that's it. Lets do it using Node.js, javascript, HTML, CSS and git (again).
+My first thought? This is a textbook case for Modernization. 💡
 
-Checkout my [solution]({% post_url 2026-02-26-IBMi-Nodejs-integration %}) to our credit controller.
+As developers, we know the power is already there—the server is running 24/7 and the data is secure. The challenge isn't the data; it's the delivery.
 
+The "Eureka" moment: Why not use Node.js?
 
+By bringing Node.js into our IBM i environment, we can bridge the gap between "legacy" stability and modern flexibility. Using a stack of Node.js, JavaScript, HTML, and CSS, I transformed those nested green-screen menus into a clean, intuitive web interface (check out the result in the image!).
+
+Now, the credit team has exactly what they need, exactly where they need it—no "menu-hopping" required.
+
+What we used:
+✅ Node.js on IBM i
+✅ Express & EJS for the UI
+✅ Git for version control
+✅ The same reliable DB2 data
+
+Modernizing the IBM i doesn’t have to mean replacing the system; it means unlocking its potential for the modern web.
+
+Check out the full breakdown of the solution here:
+👇
+[Link to your post]
+
+#IBMi #AS400 #NodeJS #Modernization #WebDevelopment #JavaScript #DigitalTransformation #GreenScreenToWeb
 <!-- `solution: http://url-you-want-linked` -->
 
 <!-- > Only one thing is impossible for God: To find any sense in any copyright law on the planet.
