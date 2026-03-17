@@ -34,7 +34,7 @@ Modernizing the IBM i doesn’t have to mean replacing the system; it means unlo
 
 Check out the full breakdown of the solution here:
 👇
-[[IBMi-Nodejs-integration](https://amit12-work.github.io/blog/IBMi-Nodejs-integration/)]
+[[Modernizing the IBM i: From Green Screen to Node.js Web Interface](https://amit12-work.github.io/blog/IBMi-Nodejs-integration/)]
 
 #IBMi #AS400 #NodeJS #Modernization #WebDevelopment #JavaScript #DigitalTransformation #GreenScreenToWeb
 
