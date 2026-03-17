@@ -8,15 +8,24 @@ tags:
   - update
 ---
 
-Once my credit controller said, I work from home and everyday I have to login to AS400, and need to check different menu options just to get collaborative information. Once this information is collected and I need to put it on our customer's account on their website. Can you create or give me anything that shows me all required information on the website instead of AS400? It will help me to copy paste easily.
+Eureka! Why aren't we using Node.js to modernize this? 💡
 
-What comes in your mind first? Ah! There is a need of modernisation, you are right!
+I recently faced a challenge that many IBM i shops know too well. Our Purchasing was stuck in a loop:
+1️⃣ Logging into the traditional "Green Screen."
+2️⃣ Navigating multiple nested menus just to gather product data.
+3️⃣ Manually transcribing that info into a modern web portal.
 
-What we can do as developer? Well, I have Server running 24*7. The data is already there on the server, my task is just to get from there and show it on the screen. Sounds easy! But it have different ways of handling. Eureka! Eureka! Why dont' we try Node.js??
+The data was already sitting on our server—it just needed a modern lens to see it through.
 
-Yep, that's it. Lets do it using Node.js, javascript, HTML, CSS and git (again).
+As developers, we don't always need to "reinvent" the server; we just need to change how we interact with it. By leveraging Node.js, JavaScript, and CSS, I built a solution that bypasses the 5250 interface entirely.
 
-Checkout my [solution]({% post_url 2026-02-26-IBMi-Nodejs-integration %}) to our credit controller.
+We took the core power of the IBM i and delivered it through a clean, responsive web UI. No more menu-hopping—just the data they need, right where they need it. 🚀
+
+📖 See how I handled the NodeJS & AS400 integration here:
+({% post_url 2026-02-26-IBMi-Nodejs-integration %})
+
+#IBMi #Modernization #AS400 #NodeJS #Javascript #WebDevelopment #DigitalTransformation
+
 
 
 <!-- `solution: http://url-you-want-linked` -->

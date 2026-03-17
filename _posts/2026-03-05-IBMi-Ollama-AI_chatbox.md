@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "IBMi-AI-Chatbox-Integration"
 date: 2026-03-05T15:34:30-04:00
 categories:
@@ -22,4 +22,4 @@ Here is the example of how to achieve it:
 
 <!-- > Only one thing is impossible for God: To find any sense in any copyright law on the planet.
   
-> <cite><a href="http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html">Mark Twain</a></cite> -->
+> <cite><a href="http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html">Mark Twain</a></cite> --> -->

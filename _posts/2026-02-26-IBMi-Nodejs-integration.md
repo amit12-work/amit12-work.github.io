@@ -7,12 +7,6 @@ tags:
   - Jekyll
   - update
 ---
+What will make the user happy? The problem is he don't want to login AS400, instead under the company network give him web based UI to get the information about the product. 
 
-
-
-
-<!-- This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
-
-> And this is how a quote looks.
-
-Some [link](#) can also be shown. -->
+Process: Need one URL - this URL will show the Web page maybe similar to AS400 green screen? And then 
