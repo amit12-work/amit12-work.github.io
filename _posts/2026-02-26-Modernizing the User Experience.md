@@ -1,5 +1,5 @@
 ---
-title: "Modernizing the IBM i: From Green Screen to Node.js Web Interface"
+title: "Modernizing the User Experience: From IBM i Green Screens to Node.js Web Portals"
 date: 2026-02-26T15:34:30-04:00
 categories:
   - blog
@@ -35,30 +35,35 @@ If you want to replicate this "Eureka" moment, follow these core steps:
 1. Set Up Your Environment
 
 First, ensure Node.js is installed on your IBM i. You can verify this via SSH:
-Bash
 
-node -v
-npm -v
+    Bash
+
+    node -v
+    npm -v
 
 Tip: Ensure /QOpenSys/pkgs/bin is in your PATH!
+
+
 2. Initialize and Install Express
 
 Create your project folder and install the web framework:
-Bash
 
-npm init -y
-npm install express ejs
+    Bash
+
+    npm init -y
+    npm install express ejs
 
 3. Connect to DB2
 
 In your db.js, use the IBM i database connectors to fetch your "Product Summary" data.
-JavaScript
 
-// Example logic
-const db = require('idb-p');
-const conn = new db.DbConn();
-conn.conn("*LOCAL");
-// SQL: SELECT DESCRIPTION, NUMBER FROM PRODUCT_TABLE
+    JavaScript
+
+    // Example logic
+    const db = require('idb-p');
+    const conn = new db.DbConn();
+    conn.conn("*LOCAL");
+    // SQL: SELECT DESCRIPTION, NUMBER FROM PRODUCT_TABLE
 
 4. Create the "Retro-Modern" UI
 
