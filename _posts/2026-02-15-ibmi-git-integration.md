@@ -35,27 +35,42 @@ Creating a repository directly in the IFS on IBM i — no third-party dependency
   git version 2.47.0     
   $                      
 ```
-• Created repositories in the IFS
+• Created repositories on the IFS
+```ruby
+  $                      
+> git init --bare my_project.git     
+  $                      
+```
 • Converted PDM source members to stream files
+```ruby
+  CPYTOSTMF FROMMBR('/QSYS.LIB/MYLIB.LIB/MYFILE.FILE/MYRPG.MBR') 
+  TOSTMF('/home/MYDIR/MYSRC/MYRPG.sqlrpgle')            
+  STMFOPT(*REPLACE)                                             
+  STMFCCSID(1208)
+```
 • Added them to Git
+```ruby
+  git add .
+```
 • Used git log and git checkout for version control
+```ruby
+  git log --oneline
+    [33mdfc16ce [m [33m ( [m [1;36mHEAD [m [33m ->  [m [1;32mmaster [m [33m,  [m [1;31morigin/master [m [33m) [m Auto-update:MYRPG01-
+    11-03-26 / 16:49:55 [m                                                                                                           
+    [33ma0cfa20 [m Auto-update:MYRPG01-11-03-26 / 16:41:49 [m                                                                        
+    [33m2ecaa0a [m Auto-update:MYRPG01-11-03-26 / 16:24:40 [m                                                                        
+    [33m7871192 [m OPR026- [m                                                                                                       
+    [33mb3a09fc [m OPR025- [m                                                                                                       
+    [33m2de0447 [m Auto-update:MYRPG02-11-03-26 / 14:36:48 [m                                                                        
+    [33m00be3b0 [m Auto-update:MYRPG03-20260310223024326226 [m                                                                       
+    [33m28c4522 [m Auto-update:MYRPG03-20260310222721877714 [m                                                                       
+    [33me7a9146 [m Auto-update:MYRPG03 [m                                                                                            
+    [33mf053c0e [m Auto-update:MYRPG03 [m                                                                                            
+    [K [?1l >$                                                                                                                      
+```
 
-Some steps are still manual — automation coming soon.
-
-
+Use the user option on the source and automate the process.
 ⸻
-
-🔄 What’s Next?
-
-Now that Git is working on IBM i, the real journey begins:
-
-• Automating source conversion from PDM to IFS
-• Defining a standard branching strategy
-• Connecting to external Git platforms (when permissions allow)
-• Driving team adoption
-
-⸻
-
 Success came after a few failures — and that’s the best part of the journey.
 
 <!-- Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
