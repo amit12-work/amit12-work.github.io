@@ -29,6 +29,12 @@ Creating a repository directly in the IFS on IBM i — no third-party dependency
 ✅ What I Implemented
 
 • Installed Git on IBM i
+```ruby
+  $                      
+> git version            
+  git version 2.47.0     
+  $                      
+```
 • Created repositories in the IFS
 • Converted PDM source members to stream files
 • Added them to Git
@@ -36,13 +42,7 @@ Creating a repository directly in the IFS on IBM i — no third-party dependency
 
 Some steps are still manual — automation coming soon.
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+
 ⸻
 
 🔄 What’s Next?
