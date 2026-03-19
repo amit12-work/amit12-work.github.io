@@ -69,9 +69,12 @@ Creating a repository directly in the IFS on IBM i — no third-party dependency
     [K [?1l >$                                                                                                                      
 ```
 
-Use the user option on the source and automate the process.
+PDM user option can be used to automate the process.
+
 ⸻
+
 Success came after a few failures — and that’s the best part of the journey.
+
 
 <!-- Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
