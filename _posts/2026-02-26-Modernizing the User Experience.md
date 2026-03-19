@@ -60,6 +60,10 @@ By utilizing HTML5 and CSS3 within your .ejs files, you can create a "Retro-Mode
 
 🖼️ The Result: Product Summary Web Portal
 
-![alt text](/assets/images/image.png)
+![alt text](image-1.png)
+
+and maybe like this:
+
+![alt text](image-02.png)
 
 By shifting from menu-hopping to a centralized web portal, the result is a massive reduction in "clicks-to-content." Users no longer need to navigate nested 5250 menus for simple data checks; they have a single, secure URL that provides instant access to the information they need, formatted for the modern web.
