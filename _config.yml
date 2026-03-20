@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Amit Mhaskar"
   avatar : "/assets/images/amit.png"
-  bio    : "IBM i (AS400) analyst, RPG, CLP, Node.js, Python, AI chatbox"
+  bio    : "IBM i (AS400) Analyst, RPG, CLP, Node.js, Python, AI chatbox"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
